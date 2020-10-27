@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "945255550091",
+    "firebase_url": "https://remote-healthcare-c6a5c.firebaseio.com",
+    "project_id": "remote-healthcare-c6a5c",
+    "storage_bucket": "remote-healthcare-c6a5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945255550091:android:03dbe3389368f1780c588e",
+        "android_client_info": {
+          "package_name": "com.sdp.remotehealthcareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945255550091-5e2t5okr3if9sst9ic3jqmr5gcbj68mm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sdp.remotehealthcareapp",
+            "certificate_hash": "8c735c94ff6a0699618f3129ad028d8befa4e847"
+          }
+        },
+        {
+          "client_id": "945255550091-gkkllpd894c49gu9670qlnquova0bb5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sdp.remotehealthcareapp",
+            "certificate_hash": "dadef031c6443195d34266370fe578d00aa799cd"
+          }
+        },
+        {
+          "client_id": "945255550091-e4fkg2i3n9r74m6i5kl6qlumtmnbepfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sdp.remotehealthcareapp",
+            "certificate_hash": "aa0ba12aceb1f6ea588fc09cb67b1c364698d5d4"
+          }
+        },
+        {
+          "client_id": "945255550091-imbk4takfq0ep65uvpbakb7iibq7gk23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChDUxP7joZ3m2NSx3yST6GaQQgXn8Q37I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945255550091-imbk4takfq0ep65uvpbakb7iibq7gk23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/desc_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/one" />
+
+    <TextView
+        android:id="@+id/desc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:focusable="false"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc_img" />
+
+    <TextView
+        android:id="@+id/desc_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:focusable="false"
+
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/desc_name"
+        app:layout_constraintTop_toBottomOf="@+id/desc_name" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toEndOf="@+id/desc_name"
+        app:layout_constraintTop_toBottomOf="@+id/desc_img" />
+
+    <TextView
+        android:id="@+id/desc_desc"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="15dp"
+        android:focusable="false"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="gravity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc_price"
+        tools:text="jcjhfcyyuctytt tfttdrrs fdtfyufyujfy ufutdtydt ifuyfdutft uguyfytdtydyt tfdtdtdty fu6du" />
+
+    <ImageView
+        android:id="@+id/imageCart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/desc_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/desc_img"
+        app:layout_constraintVertical_bias="0.137"
+        app:srcCompat="@drawable/cart_image"
+        android:clickable="true"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

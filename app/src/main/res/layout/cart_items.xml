@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/cart_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tree" />
+
+    <TextView
+        android:id="@+id/cart_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:fontFamily="@font/baloo"
+        android:text="Name"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/cart_image"
+        app:layout_constraintTop_toTopOf="@+id/cart_image" />
+
+    <TextView
+        android:id="@+id/cart_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/baloo"
+        android:text="Quantity"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/button_incr"
+        app:layout_constraintTop_toBottomOf="@+id/cart_name" />
+
+    <TextView
+        android:id="@+id/cart_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="Price"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_dec"
+        app:layout_constraintStart_toStartOf="@+id/cart_name" />
+
+    <Button
+        android:id="@+id/button_incr"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/btn_rounded"
+        android:text="+"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/cart_name"
+        app:layout_constraintTop_toTopOf="@+id/cart_name" />
+
+    <Button
+        android:id="@+id/button_dec"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/btn_rounded"
+        android:text="-"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/button_incr"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cart_price"
+        app:layout_constraintTop_toBottomOf="@+id/button_incr" />
+</androidx.constraintlayout.widget.ConstraintLayout>
